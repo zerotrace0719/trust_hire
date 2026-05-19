@@ -1,0 +1,18 @@
+{
+  "id": "scn_whatsapp_recruiter",
+  "label": "WhatsApp Recruiter — Processing Fee Scam",
+  "category": "phishing",
+  "expected_score_range": [10, 30],
+  "input": {
+    "source": "gmail",
+    "sender_email": "amazon.hr.career2024@yahoo.com",
+    "claimed_company": "Amazon",
+    "subject": "Amazon Hiring — Urgent Response Required",
+    "message_body": "Hello,\n\nWe have an opening at Amazon for Junior Developer position. Salary 25 LPA. We have seen your profile and you are perfect candidate.\n\nPlease do needful below:\n- Send your resume to my personal email\n- Pay registration fees Rs 1500 for documentation\n- Move our conversation to WhatsApp at +91-72XXX-XXXXX for fast process\n\nDo it today only, slots are limited. Reply within 2 hours.\n\nThanks and regards,\nMs. Priya\nAmazon Hiring Team",
+    "urls": [],
+    "claimed_role": "Junior Developer",
+    "claimed_salary": "₹25 LPA",
+    "has_job_description": false,
+    "conversation_summary": "First message. Cold contact."
+  }
+}

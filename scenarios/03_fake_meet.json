@@ -1,0 +1,25 @@
+{
+  "id": "scn_fake_meet",
+  "label": "Fake Google Meet — Typo-squatted Domain",
+  "category": "cyber",
+  "expected_score_range": [15, 35],
+  "input": {
+    "source": "meet",
+    "sender_email": "talent@microsft-careers.com",
+    "claimed_company": "Microsoft",
+    "subject": "Interview Invitation — Microsoft Azure Team",
+    "message_body": "Hi,\n\nThank you for your interest in Microsoft. We'd like to invite you for a technical interview with our Azure team.\n\nPlease join the meeting at the scheduled time using the link below. Have your government ID and educational certificates ready to share on screen.\n\nLooking forward to speaking with you.\n\nBest,\nTalent Acquisition\nMicrosoft",
+    "urls": [
+      "https://gooogle-meet.xyz/j/abc-defg-hij",
+      "https://meet.g00gle.com/xyz-1234"
+    ],
+    "claimed_role": "Cloud Engineer — Azure",
+    "claimed_salary": "Competitive",
+    "has_job_description": true,
+    "conversation_summary": "Second exchange. Interview was scheduled after a brief screening call.",
+    "voice_anomaly_score": 0.62,
+    "lip_sync_offset_ms": 180,
+    "pause_naturalness": 0.35,
+    "background_noise_profile": "studio-perfect (unusual)"
+  }
+}

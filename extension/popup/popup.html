@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>TrustHire AI</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <div class="brand-icon"></div>
+      <div>
+        <div class="brand-name">TrustHire AI</div>
+        <div class="brand-sub">Zero-Trust Recruitment</div>
+      </div>
+    </div>
+    <div class="status" id="status">
+      <span class="status-dot"></span>
+      <span class="status-text">Connecting…</span>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-label">Last Verdict</div>
+    <div class="hero-score" id="lastScore">—</div>
+    <div class="hero-verdict" id="lastVerdict">No analysis yet</div>
+    <div class="hero-headline" id="lastHeadline"></div>
+  </section>
+
+  <section class="modes">
+    <div class="section-title">
+      <span>Protection Mode</span>
+      <span class="pause-status" id="pauseStatus"></span>
+    </div>
+    <div class="mode-buttons" id="modeButtons">
+      <button class="mode-btn" data-mode="manual">
+        <span class="mode-icon">✋</span>
+        <span class="mode-label">Manual</span>
+      </button>
+      <button class="mode-btn" data-mode="smart">
+        <span class="mode-icon">🎯</span>
+        <span class="mode-label">Smart</span>
+      </button>
+      <button class="mode-btn" data-mode="always">
+        <span class="mode-icon">🛡</span>
+        <span class="mode-label">Always</span>
+      </button>
+    </div>
+    <div class="mode-desc" id="modeDesc">Click "Scan" on emails to analyze</div>
+  </section>
+
+  <section class="actions">
+    <button class="primary" id="openDashboard">Open Command Center →</button>
+    <div class="action-row">
+      <button class="secondary" data-scenario="scn_otp_scam">⚠ Run OTP Scam Demo</button>
+      <button class="secondary" data-scenario="scn_legit_stripe">✓ Run Legitimate Demo</button>
+    </div>
+    <div class="action-row">
+      <button class="ghost" id="pauseBtn">⏸ Pause for 1 hour</button>
+      <button class="ghost" id="resumeBtn" style="display:none">▶ Resume</button>
+    </div>
+  </section>
+
+  <footer>privacy-first · v0.1 · localhost:8000</footer>
+  <script src="popup.js"></script>
+</body>
+</html>

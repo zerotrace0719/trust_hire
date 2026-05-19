@@ -1,0 +1,21 @@
+{
+  "id": "scn_otp_scam",
+  "label": "OTP Scam — Fake Google Recruiter",
+  "category": "phishing",
+  "expected_score_range": [0, 20],
+  "input": {
+    "source": "gmail",
+    "sender_email": "rachel.hr.googlecareers@gmail.com",
+    "claimed_company": "Google",
+    "subject": "URGENT: Selected for SDE Role at Google — Immediate Joining",
+    "message_body": "Hi Candidate,\n\nCongratulations! You have been SHORTLISTED for the Software Development Engineer role at Google with an annual CTC of ₹48 LPA. This is an urgent hiring drive and slots are filling up FAST.\n\nTo confirm your candidature, please:\n1. Share the OTP sent to your registered phone number\n2. Pay a refundable processing fee of ₹2,500 via UPI: googlehr@paytm\n3. Share your Aadhaar and bank account details for background verification\n\nFor faster processing, contact me directly on WhatsApp: +91-89XXX-XXXXX\n\nThis offer expires in 6 hours. Please respond IMMEDIATELY.\n\nWarm regards,\nRachel Mathew\nSenior Recruiter, Google India",
+    "urls": [
+      "https://gooogle-careers.xyz/verify-otp",
+      "https://bit.ly/3xJoinNow"
+    ],
+    "claimed_role": "Software Development Engineer",
+    "claimed_salary": "₹48 LPA",
+    "has_job_description": false,
+    "conversation_summary": "First contact. No prior interaction. Recruiter contacted candidate out of the blue."
+  }
+}

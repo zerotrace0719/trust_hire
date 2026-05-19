@@ -1,0 +1,18 @@
+{
+  "id": "scn_borderline",
+  "label": "Borderline — Some Yellow Flags",
+  "category": "caution",
+  "expected_score_range": [55, 75],
+  "input": {
+    "source": "gmail",
+    "sender_email": "recruiter.acmecorp@outlook.com",
+    "claimed_company": "Acme Corp",
+    "subject": "Exciting Opportunity at Acme Corp",
+    "message_body": "Hello,\n\nI came across your profile and I think you'd be a great fit for a Senior Engineer role at Acme Corp. The compensation is very competitive — around ₹65 LPA for the right candidate.\n\nWould you be free for a quick call this week? I can share more details over the call. If you prefer, we can also chat on WhatsApp — it's faster for me.\n\nLooking forward!\n\nRegards,\nDeepak Sharma\nTalent Acquisition",
+    "urls": [],
+    "claimed_role": "Senior Engineer",
+    "claimed_salary": "₹65 LPA",
+    "has_job_description": false,
+    "conversation_summary": "Cold first message. Mentions WhatsApp but doesn't insist. Salary disclosed without an interview."
+  }
+}

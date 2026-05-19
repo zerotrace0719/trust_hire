@@ -1,0 +1,21 @@
+{
+  "id": "scn_legit_stripe",
+  "label": "Legitimate Recruiter — Stripe",
+  "category": "legitimate",
+  "expected_score_range": [82, 100],
+  "input": {
+    "source": "gmail",
+    "sender_email": "anna.chen@stripe.com",
+    "claimed_company": "Stripe",
+    "subject": "Stripe — Backend Engineer Role | Next Steps",
+    "message_body": "Hi Saad,\n\nThanks for taking the time to chat last Thursday. The team enjoyed your discussion of the LaminARCH credit system and the atomic RPC approach.\n\nWe'd like to move forward with a technical interview. Here are the next steps:\n\n1. 60-min systems design round with Priya (Staff Engineer) — Tuesday or Wednesday next week\n2. 45-min coding round on CoderPad\n3. Founder chat with a member of our leadership team\n\nThe job description is attached, and you can also find it on our careers page: https://stripe.com/jobs/listing/backend-engineer\n\nLet me know what times work for you and I'll send calendar invites.\n\nBest,\nAnna Chen\nTechnical Recruiter, Stripe\nLinkedIn: linkedin.com/in/anna-chen-stripe",
+    "urls": [
+      "https://stripe.com/jobs/listing/backend-engineer",
+      "https://linkedin.com/in/anna-chen-stripe"
+    ],
+    "claimed_role": "Backend Engineer",
+    "claimed_salary": "Discussed in initial screen — within market range",
+    "has_job_description": true,
+    "conversation_summary": "Third exchange. Initial screening call already happened. Recruiter has a LinkedIn profile and uses official stripe.com domain."
+  }
+}

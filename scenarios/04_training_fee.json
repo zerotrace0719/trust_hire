@@ -1,0 +1,21 @@
+{
+  "id": "scn_training_fee",
+  "label": "Training Fee Scam — Suspicious Domain",
+  "category": "phishing",
+  "expected_score_range": [10, 30],
+  "input": {
+    "source": "gmail",
+    "sender_email": "hr@infosys-careers.work",
+    "claimed_company": "Infosys",
+    "subject": "Selection Letter — Infosys Systems Engineer",
+    "message_body": "Dear Candidate,\n\nWe are pleased to inform you that you have been selected for the Systems Engineer role at Infosys Ltd. based on your resume profile.\n\nTo confirm your joining:\n- One-time training & onboarding fee: ₹8,500 (refundable after 6 months)\n- Pay via UPI to: infosys.training@okaxis\n- Submit your bank statements, PAN, and Aadhaar to the link below\n\nDocumentation portal: https://infosys-onboarding.click/upload\n\nJoining date: Within 7 days of payment confirmation.\n\nRegards,\nHR Department\nInfosys Ltd.",
+    "urls": [
+      "https://infosys-onboarding.click/upload",
+      "http://203.45.67.89/joining/confirm"
+    ],
+    "claimed_role": "Systems Engineer",
+    "claimed_salary": "₹4.5 LPA",
+    "has_job_description": false,
+    "conversation_summary": "Out of nowhere offer letter. Candidate never applied."
+  }
+}

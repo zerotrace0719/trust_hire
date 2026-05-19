@@ -1,0 +1,24 @@
+{
+  "id": "scn_meet_live",
+  "label": "Live Interview Monitor - Demo",
+  "category": "cyber",
+  "expected_score_range": [15, 35],
+  "input": {
+    "source": "meet",
+    "sender_email": "talent.ops@microsft-careers.work",
+    "claimed_company": "Microsoft",
+    "subject": "Live Google Meet session: bzx-mtuq-pkw",
+    "message_body": "User joined a Google Meet session.\nMeeting code: bzx-mtuq-pkw\nMeeting URL: https://gooogle-meet.xyz/bzx-mtuq-pkw\nOrganizer: talent.ops@microsft-careers.work\nThe meeting URL does not use the official meet.google.com domain.",
+    "urls": [
+      "https://gooogle-meet.xyz/bzx-mtuq-pkw"
+    ],
+    "claimed_role": "Cloud Engineer",
+    "claimed_salary": "Discussed in screening",
+    "has_job_description": true,
+    "conversation_summary": "Live Meet session detected on suspicious domain.",
+    "voice_anomaly_score": 0.58,
+    "lip_sync_offset_ms": 175,
+    "pause_naturalness": 0.38,
+    "background_noise_profile": "studio-perfect (unusual)"
+  }
+}
