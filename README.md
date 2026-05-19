@@ -586,7 +586,7 @@ Use it, fork it, ship it, learn from it. Just don't pretend you wrote it.
 
 <div align="center">
 
-### Built with anxiety and care, in 12 days.
+
 
 **TrustHire AI — because the next generation of job seekers deserves better than blocklists.**
 
